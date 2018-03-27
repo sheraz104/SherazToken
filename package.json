@@ -2,8 +2,11 @@
   "name": "tokenboot",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sheraz104.github.io/SherazToken/",
   "dependencies": {
+    "gh-pages": "^1.1.0",
     "react": "^16.2.0",
+    "react-async-component": "^2.0.0",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.2.0",
     "react-scripts": "1.1.1",
@@ -12,6 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }

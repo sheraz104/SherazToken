@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Jumbotron, Button } from "react-bootstrap";
 import Info from "./Info";
 import Form from "./Form";
-import MetamaskAlert from "./MetamaskAlert";
 import web3 from '../web3';
 import Token from '../contracts/TokenInstance';
 
@@ -50,7 +49,6 @@ class Dashboard extends Component {
   render() {
     return (
       <div>
-        <MetamaskAlert />
         <div style={{ textAlign: "center", marginTop: "5%" }}>
           <Jumbotron style={styles.jumboStyle}>
             <Info address={this.state.address} balance={this.state.balance} />
