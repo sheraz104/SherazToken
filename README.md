@@ -1,1 +1,1 @@
-Gitlab page @ https://sheraz104.github.io/testTokenn/
+Gitlab page @ https://sheraz104.github.io/SherazToken/
